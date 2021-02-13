@@ -1,5 +1,5 @@
 # Bloatware removal Script made for the Raspberry PI
-Remove bloatware from Raspberry Pi Raspbian with one script. This will remove the storage hogging programs and some other often never-used tools including:
+Remove bloatware from Raspberry PI Raspbian with one script. This will remove the storage hogging programs and some other often never-used tools including:
 
 
 1. Wolfram Engine
