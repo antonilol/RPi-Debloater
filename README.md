@@ -12,7 +12,9 @@ Remove bloatware from Raspberry Pi Raspbian with one script. This will remove th
 8. Java (oracle-java8-jdk openjdk-7-jre oracle-java7-jdk openjdk-8-jre)
 9. smartsim
 10. Python Games (package and `~/python_games`)
-11. Xorg xserver (graphical stuff)
+11. Xorg xserver (graphical stuff) (optional)
+
+Actually all options are optional. Just clone this repo and edit the `debloater.sh` (before you run it :)).
 
 The script will then `autoremove`, `autoclean`, `update` and `upgrade` the aptitude pacakges on the Pi itself.
 
