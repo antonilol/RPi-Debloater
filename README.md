@@ -21,6 +21,7 @@ The script will then `autoremove`, `autoclean`, `update` and `upgrade` the aptit
 
 ```bash
 git clone https://github.com/antonilol/RPi-Debloater.git
+sudo RPi-Debloater/xdebloater.sh # run this if you also want to remove Xorg xserver
 sudo RPi-Debloater/debloater.sh
 ```
 
