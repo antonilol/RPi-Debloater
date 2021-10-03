@@ -29,7 +29,5 @@ If the automatic method does not work, you can manually download the repository 
 
 ```bash
 git clone git://github.com/antonilol/RPI-Debloater.git
-cd remove-bloat
-sudo chmod +x remove-bloat.sh
-sudo ./remove-bloat.sh
+sudo bash RPi-Debloater/debloater.sh
 ```
