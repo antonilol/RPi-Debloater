@@ -1,11 +1,11 @@
-# Bloatware removal Script made for the Raspberry PI
-Remove bloatware from Raspberry PI Raspbian with one script. This will remove the storage hogging programs and some other often never-used tools including:
+## Bloatware removal script for the Raspberry Pi
 
+Remove bloatware from Raspberry Pi Raspbian with one script. This will remove the storage hogging programs and some other often never-used tools including:
 
 1. Wolfram Engine
 2. LibreOffice
 3. Minecraft Pi
-4. Sonic Pi 
+4. Sonic Pi
 5. Dillo Web Broswer (dillo)
 6. Image Viewer (gpicview)
 7. Penguines Puzzle (penguinspuzzle)
@@ -13,21 +13,26 @@ Remove bloatware from Raspberry PI Raspbian with one script. This will remove th
 9. smartsim
 10. Python Games
 
-The script will then `autoremove`, `autoclean` and then `update` the aptitude pacakges on the Pi itself.
+The script will then `autoremove`, `autoclean`, `update` and `upgrade` the aptitude pacakges on the Pi itself.
 
-## Installation
+## Download and run
 
-### Automatic
-Run the following command within the Raspberry Pi terminal:
-
-```bash
-sudo curl -fsSL https://raw.githubusercontent.com/antonilol/RPi-Debloater/master/debloater.sh | bash
-```
-
-### Manual
-If the automatic method does not work, you can manually download the repository and run the script after making it executable.
+### With `git clone`
 
 ```bash
-git clone git://github.com/antonilol/RPI-Debloater.git
-sudo bash RPi-Debloater/debloater.sh
+git clone https://github.com/antonilol/RPi-Debloater.git
+sudo RPi-Debloater/debloater.sh
 ```
+
+### With `curl`
+
+```bash
+curl https://raw.githubusercontent.com/antonilol/RPi-Debloater/master/debloater.sh | sudo bash
+```
+
+### With `wget`
+
+```bash
+wget -O - https://raw.githubusercontent.com/antonilol/RPi-Debloater/master/debloater.sh | sudo bash
+```
+
