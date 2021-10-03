@@ -21,14 +21,14 @@ The script will then `autoremove`, `autoclean` and then `update` the aptitude pa
 Run the following command within the Raspberry Pi terminal:
 
 ```bash
-sudo curl -fsSL https://raw.githubusercontent.com/Patrick979/RPi-Debloater/master/debloater.sh | bash
+sudo curl -fsSL https://raw.githubusercontent.com/antonilol/RPi-Debloater/master/debloater.sh | bash
 ```
 
 ### Manual
 If the automatic method does not work, you can manually download the repository and run the script after making it executable.
 
 ```bash
-git clone git://github.com/Patrick979/RPI-Debloater.git
+git clone git://github.com/antonilol/RPI-Debloater.git
 cd remove-bloat
 sudo chmod +x remove-bloat.sh
 sudo ./remove-bloat.sh
