@@ -16,7 +16,7 @@ Remove bloatware from Raspberry Pi Raspbian with one script. This will remove th
 
 Actually all options are optional. Just clone this repo and edit the `debloater.sh` (before you run it :)).
 
-The script will then `autoremove`, `autoclean`, `update` and `upgrade` the aptitude pacakges on the Pi itself.
+The script will then `autoremove`, `autoclean`, `update` and `upgrade` the aptitude packages on the Pi itself.
 
 ## Download and run
 
