@@ -19,5 +19,5 @@ apt -y autoclean
 apt update
 
 # upgrade
-apt upgrade
+apt -y upgrade
 
